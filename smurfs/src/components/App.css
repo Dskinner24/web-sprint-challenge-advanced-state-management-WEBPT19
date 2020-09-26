@@ -1,3 +1,58 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url('/smurfs/GROBOLD.ttf');
+}
+
+body {
+  background-image: url("../smurfVillage.jpg");
+}
+
 .App {
   text-align: center;
+}
+
+.img {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #88CCFF;
+  border-radius: 100px;
+  width: 250px;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.content {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h3 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  color: white;
+}
+
+.label {
+  color: white;
+  font-family: myFirstFont;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  margin-left: 10px;
 }
